@@ -1,0 +1,14 @@
+# Da aggiungere al .gitignore che verrà usato
+
+# Materiale di Eclipse
+.settings
+target
+.classpath
+.project
+*.jardesc
+
+# Materiale del progetto
+output
+global-groovy.log
+soapui-errors.log
+soapui.log

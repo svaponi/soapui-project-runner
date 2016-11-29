@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="09604af4-fb5e-473a-bdb3-abb1917c87fe" activeEnvironment="Default" name="dummy" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting>
+  </con:settings>
+  <con:testSuite id="67a9af30-a62f-46c1-a8d9-27328c9f6ad2" name="SuiteA">
+    <con:description>TestSuite</con:description>
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="36c24a14-14d6-4105-8217-fe441675d1ca" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="34c70e18-8247-4c5a-8e20-f23da2d02a04">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="0e807eb7-93b9-4ea8-bedd-8cfbe376c429">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="4d3c5d68-9a7e-4783-99d8-2c2dab8865c4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase2" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="a03dde3d-c3c8-49b5-bfd5-9349fbb6bc1c">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="004999f7-c47e-4b61-a26f-b21007c23722">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="cdc4d437-819d-40e0-b6f0-dbe9d0c93453" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase3" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="cfefea88-8bcd-4ebf-ab2f-b86fe302aeba">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="80a3d11d-866b-43fc-81f5-c7ced4fbbd2d">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:properties/>
+  </con:testSuite>
+  <con:testSuite id="436e8a96-a7b7-4b2f-8faa-6acead55e685" name="SuiteB">
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="32cd13e2-27d0-4675-b737-b97b8c84d18f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true" disabled="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="153ecea6-add6-4998-a897-09cb6466c90a">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="202a3cc2-b6c2-4a98-af33-be51418ac616">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="f53138c2-4f02-4bc7-97bb-906464089dd6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase2" searchProperties="true" disabled="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="a8bd007a-c248-4d5b-a377-1f3b20c71b2c">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="9678e228-69c8-4a45-8194-7e1ee032a4ad">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="72d491b0-b9eb-474d-bb6e-2b6538a32e27" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase3" searchProperties="true" disabled="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="0355b97a-4722-4ef8-b316-879f5b3cc448">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="735e4732-9914-430c-840f-c44b6ff8a0ab">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:properties/>
+  </con:testSuite>
+  <con:testSuite id="7e4b396f-13d0-462e-8ef7-e0a63f889d3a" name="SuiteC" disabled="true">
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="d6b91ed3-4491-4bb4-a2e8-0a0d47b876ba" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="50f8e5bc-3d18-47d7-8ae5-6bd8dfe09fd3">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="813be9bb-e473-4fa1-acfa-800759c8d217">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="d678d562-b65b-41d7-aa73-b2ae8e5ad917" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase2" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="10e181f4-762b-443c-b4da-fcca0cd8169b">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="5b1406e5-0285-4586-8d56-ecf4f3ce78ef">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="64c8b118-98f5-42f2-87b5-2d020fe9ca56" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase3" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="bdbfaff4-04f3-4b82-9cbd-77f1a0da50b1">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="7d4eb508-7b07-4194-83ce-3519422e2a9c">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:properties/>
+  </con:testSuite>
+  <con:testSuite id="48345e53-719d-4f01-8575-068604d86a65" name="SuiteD">
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="66553510-d9ab-4317-8dc0-2e28953a1b99" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="1aa64d57-1878-4d00-ab7e-01c99a8afe51">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="bf7a4c04-85ff-473a-94dd-48b28bb07141">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="6577e183-fd13-452e-8fa7-341ff201bdaf" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase2" searchProperties="true" disabled="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="00b17d26-6f18-4dfa-a265-dcde53006570">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="fc0a49ed-6826-4803-b90b-cbc73b6273f7">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="0464012e-e625-4e10-a7a5-e55e3af4144f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase3" searchProperties="true">
+      <con:description>TestCase</con:description>
+      <con:settings/>
+      <con:testStep type="groovy" name="Groovy Script" id="f2bc846e-f81e-4c76-91c9-dc6cc2951c22">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script 2" id="52b3ad9b-323e-477a-bd52-c0a502bd4cf5">
+        <con:settings/>
+        <con:config>
+          <script>log.info ' ' + context.testCase.testSuite.getLabel() + ' > ' + context.testCase.getLabel() + ' > ' + context.testCase.getTestStepAt(context.getCurrentStepIndex()).getLabel() + ' OK'</script>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    <con:properties/>
+  </con:testSuite>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:sensitiveInformation/>
+</con:soapui-project>

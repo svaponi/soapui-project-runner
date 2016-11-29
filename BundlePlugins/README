@@ -1,0 +1,8 @@
+ERROR: AutoDiscoveryMethodFactory ClassNotFoundException
+
+SOLVED: copia questi jar in "C:\Users\<username>\.soapuios\plugin" oppure in <local-dir>\ext (dove local-dir è dove viene invocato il jar
+
+readyapi-swaggerhub-plugin-1.0.jar
+ready-mqtt-plugin-dist.jar
+ready-uxm-plugin-1.0.1-dist.jar
+soapui-swagger-plugin-2.2-dist.jar
